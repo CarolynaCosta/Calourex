@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>
+      Eventos
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="events-content">
+
+  <section class="events-hero">
+
+    <span>🎉 Vida Universitária</span>
+
+    <h1>
+      Eventos para integrar, aprender e se conectar
+    </h1>
+
+    <p>
+      Descubra workshops, recepções, tours e experiências criadas para os calouros.
+    </p>
+
+  </section>
+
+  <section class="events-grid">
+
+    <ion-card
+      class="event-card"
+      *ngFor="let event of events">
+
+      <img
+        class="event-image"
+        [src]="event.image"
+        [alt]="event.title">
+
+      <div class="event-content">
+
+        <div class="event-tag">
+          Evento Acadêmico
+        </div>
+
+        <h2>
+          {{ event.title }}
+        </h2>
+
+        <p class="event-description">
+          {{ event.description }}
+        </p>
+
+        <div class="event-date">
+          📅 {{ event.date }}
+        </div>
+
+      </div>
+
+    </ion-card>
+
+  </section>
+
+</ion-content>

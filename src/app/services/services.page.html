@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Setores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="services-content">
+
+  <section class="services-hero">
+    <span>📍 Guia rápido</span>
+
+    <h1>Encontre o setor certo sem se perder</h1>
+
+    <p>
+      Tudo que o calouro precisa saber em cards simples, bonitos e diretos.
+    </p>
+  </section>
+
+  <section class="services-grid">
+
+    <ion-card class="service-card" *ngFor="let service of services">
+
+      <div class="top-row">
+        <div class="icon-box">
+          <ion-icon [name]="service.icon"></ion-icon>
+        </div>
+
+        <span class="tag">
+          {{ service.tag }}
+        </span>
+      </div>
+
+      <h2>{{ service.name }}</h2>
+
+      <p class="description">
+        {{ service.description }}
+      </p>
+
+      <div class="details">
+        <div>
+          <strong>Local</strong>
+          <span>{{ service.location }}</span>
+        </div>
+
+        <div>
+          <strong>Contato</strong>
+          <span>{{ service.contact }}</span>
+        </div>
+      </div>
+
+    </ion-card>
+
+  </section>
+
+</ion-content>

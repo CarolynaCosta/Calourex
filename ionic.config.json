@@ -1,0 +1,7 @@
+{
+  "name": "calourex",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
