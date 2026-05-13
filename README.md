@@ -61,26 +61,25 @@ O aplicativo permite:
 
 ## 🏠 Tela Inicial
 
-![Tela Inicial](./prints/tela1.png)
+![Tela Inicial](prints/tela1.png)
 
 ---
 
 ## 🏢 Setores Acadêmicos
 
-![Setores](./prints/tela3.png)
+![Setores](prints/tela2.png)
 
 ---
 
 ## 🎉 Eventos Universitários
 
-![Eventos](./prints/tela4.png)
+![Eventos](prints/tela3.png)
 
 ---
 
 ## 📱 Interface Mobile
 
-![Mobile](./prints/tela2.png)
-
+![Mobile](prints/tela4.png)
 ---
 
 # ♿ Acessibilidade
