@@ -57,6 +57,32 @@ O aplicativo permite:
 
 ---
 
+# 📸 Capturas do Aplicativo
+
+## 🏠 Tela Inicial
+
+![Tela Inicial](./prints/tela1.png)
+
+---
+
+## 🏢 Setores Acadêmicos
+
+![Setores](./prints/tela3.png)
+
+---
+
+## 🎉 Eventos Universitários
+
+![Eventos](./prints/tela4.png)
+
+---
+
+## 📱 Interface Mobile
+
+![Mobile](./prints/tela2.png)
+
+---
+
 # ♿ Acessibilidade
 
 O aplicativo possui:
@@ -102,9 +128,13 @@ ionic serve
 
 # 🛠️ Como criar o projeto
 
+## Instalar Ionic CLI
+
 ```bash
 npm install -g @ionic/cli
 ```
+
+## Criar projeto
 
 ```bash
 ionic start calourex blank --type=angular
